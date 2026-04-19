@@ -6,7 +6,7 @@ import edu.farmingdale.ramsbrew.model.SweetenerType;
 import edu.farmingdale.ramsbrew.model.Temperature;
 
 public class Cappuccino extends BaseBeverage {
-    protected Cappuccino(Size size, Temperature temperature, MilkType milkType, int shots, SweetenerType sweetenerType) {
+    public Cappuccino(Size size, Temperature temperature, MilkType milkType, int shots, SweetenerType sweetenerType) {
         super(size, temperature, milkType, shots, sweetenerType);
     }
 
